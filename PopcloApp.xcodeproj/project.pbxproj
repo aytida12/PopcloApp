@@ -1,0 +1,1004 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7B514FB284C1013000C25D3 /* EditItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B514FA284C1013000C25D3 /* EditItemView.swift */; };
+		C7DFB4EE284833C80092822D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB4ED284833C80092822D /* ViewController.swift */; };
+		C7DFB501284833CA0092822D /* PopcloAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB500284833CA0092822D /* PopcloAppTests.swift */; };
+		C7DFB50C284833CA0092822D /* PopcloAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB50B284833CA0092822D /* PopcloAppUITests.swift */; };
+		C7DFB5772848346D0092822D /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB5192848346D0092822D /* SearchViewModel.swift */; };
+		C7DFB5782848346D0092822D /* TradingPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB51A2848346D0092822D /* TradingPreferences.swift */; };
+		C7DFB5792848346D0092822D /* UIImagePlusResizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB51B2848346D0092822D /* UIImagePlusResizing.swift */; };
+		C7DFB57A2848346D0092822D /* ItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB51C2848346D0092822D /* ItemDetailView.swift */; };
+		C7DFB57B2848346D0092822D /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB51D2848346D0092822D /* UserManager.swift */; };
+		C7DFB57D2848346D0092822D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB51F2848346D0092822D /* SceneDelegate.swift */; };
+		C7DFB57E2848346D0092822D /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB5202848346D0092822D /* CustomTabBar.swift */; };
+		C7DFB57F2848346D0092822D /* AddPostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB5212848346D0092822D /* AddPostViewModel.swift */; };
+		C7DFB5802848346D0092822D /* PaymentSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB5222848346D0092822D /* PaymentSettings.swift */; };
+		C7DFB5812848346D0092822D /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB5232848346D0092822D /* ForgotPasswordViewController.swift */; };
+		C7DFB5832848346D0092822D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7DFB5252848346D0092822D /* Main.storyboard */; };
+		C7DFB5842848346D0092822D /* ItemScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB5262848346D0092822D /* ItemScrollView.swift */; };
+		C7DFB5852848346D0092822D /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB5272848346D0092822D /* ProfileViewModel.swift */; };
+		C7DFB5862848346D0092822D /* RequestVerification.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB5282848346D0092822D /* RequestVerification.swift */; };
+		C7DFB5872848346D0092822D /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB5292848346D0092822D /* SearchBar.swift */; };
+		C7DFB5882848346D0092822D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB52A2848346D0092822D /* User.swift */; };
+		C7DFB5892848346D0092822D /* CustomTextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB52B2848346D0092822D /* CustomTextFields.swift */; };
+		C7DFB58A2848346D0092822D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7DFB52C2848346D0092822D /* Assets.xcassets */; };
+		C7DFB58B2848346D0092822D /* HiddenExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB52D2848346D0092822D /* HiddenExtension.swift */; };
+		C7DFB58C2848346D0092822D /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB52E2848346D0092822D /* MapView.swift */; };
+		C7DFB58D2848346D0092822D /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB52F2848346D0092822D /* SplashScreenViewController.swift */; };
+		C7DFB58E2848346D0092822D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB5302848346D0092822D /* LoginViewController.swift */; };
+		C7DFB58F2848346D0092822D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB5312848346D0092822D /* Constants.swift */; };
+		C7DFB5902848346D0092822D /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB5322848346D0092822D /* FeedViewModel.swift */; };
+		C7DFB5912848346D0092822D /* DemoPhotos.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7DFB5332848346D0092822D /* DemoPhotos.xcassets */; };
+		C7DFB5922848346D0092822D /* FollowersPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB5342848346D0092822D /* FollowersPage.swift */; };
+		C7DFB5932848346D0092822D /* LocationSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB5352848346D0092822D /* LocationSearchViewModel.swift */; };
+		C7DFB5942848346D0092822D /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB5362848346D0092822D /* Post.swift */; };
+		C7DFB5952848346D0092822D /* OutfitDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB5372848346D0092822D /* OutfitDetailView.swift */; };
+		C7DFB5962848346D0092822D /* PersonalInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB5382848346D0092822D /* PersonalInformation.swift */; };
+		C7DFB5972848346D0092822D /* ProfileMainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB5392848346D0092822D /* ProfileMainPage.swift */; };
+		C7DFB5982848346D0092822D /* ProfileMainPageTopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB53A2848346D0092822D /* ProfileMainPageTopBar.swift */; };
+		C7DFB5992848346D0092822D /* SettingsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB53B2848346D0092822D /* SettingsButton.swift */; };
+		C7DFB59A2848346D0092822D /* TopBarWithShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB53C2848346D0092822D /* TopBarWithShadow.swift */; };
+		C7DFB59B2848346D0092822D /* BetterCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB53D2848346D0092822D /* BetterCodable.swift */; };
+		C7DFB59C2848346D0092822D /* PageSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB53E2848346D0092822D /* PageSelection.swift */; };
+		C7DFB59D2848346D0092822D /* EditProfilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB53F2848346D0092822D /* EditProfilePage.swift */; };
+		C7DFB59E2848346D0092822D /* WillDisappear.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB5402848346D0092822D /* WillDisappear.swift */; };
+		C7DFB59F2848346D0092822D /* FirebaseEcodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB5412848346D0092822D /* FirebaseEcodable.swift */; };
+		C7DFB5A02848346D0092822D /* PrivacySettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB5422848346D0092822D /* PrivacySettings.swift */; };
+		C7DFB5A12848346D0092822D /* TabBarStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB5432848346D0092822D /* TabBarStructure.swift */; };
+		C7DFB5A22848346D0092822D /* AddPostImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB5442848346D0092822D /* AddPostImages.swift */; };
+		C7DFB5A32848346D0092822D /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB5452848346D0092822D /* Feed.swift */; };
+		C7DFB5A52848346D0092822D /* SearchPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB5472848346D0092822D /* SearchPage.swift */; };
+		C7DFB5A62848346D0092822D /* AddPostAndItemPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB5482848346D0092822D /* AddPostAndItemPage.swift */; };
+		C7DFB5A72848346D0092822D /* PostViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB5492848346D0092822D /* PostViewer.swift */; };
+		C7DFB5A82848346D0092822D /* AboutPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB54A2848346D0092822D /* AboutPage.swift */; };
+		C7DFB5A92848346D0092822D /* HydraDecoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB54B2848346D0092822D /* HydraDecoding.swift */; };
+		C7DFB5AA2848346D0092822D /* ArrayPlusChunked.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB54C2848346D0092822D /* ArrayPlusChunked.swift */; };
+		C7DFB5AB2848346D0092822D /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB54D2848346D0092822D /* Item.swift */; };
+		C7DFB5AC2848346D0092822D /* LoadingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB54E2848346D0092822D /* LoadingScreen.swift */; };
+		C7DFB5AD2848346D0092822D /* CustomButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB54F2848346D0092822D /* CustomButtons.swift */; };
+		C7DFB5AE2848346D0092822D /* LocationPermissionErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB5502848346D0092822D /* LocationPermissionErrorView.swift */; };
+		C7DFB5AF2848346D0092822D /* CGImagePlusResizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB5512848346D0092822D /* CGImagePlusResizing.swift */; };
+		C7DFB5B02848346D0092822D /* ReportingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB5522848346D0092822D /* ReportingPage.swift */; };
+		C7DFB5B12848346D0092822D /* CategoryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB5532848346D0092822D /* CategoryDetailView.swift */; };
+		C7DFB5B22848346D0092822D /* HamburgerMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB5542848346D0092822D /* HamburgerMenu.swift */; };
+		C7DFB5B32848346D0092822D /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB5552848346D0092822D /* NotificationView.swift */; };
+		C7DFB5B42848346D0092822D /* ComingSoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB5562848346D0092822D /* ComingSoon.swift */; };
+		C7DFB5B52848346D0092822D /* SettingsMainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB5572848346D0092822D /* SettingsMainPage.swift */; };
+		C7DFB5B62848346D0092822D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB5582848346D0092822D /* SettingsView.swift */; };
+		C7DFB5B72848346D0092822D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7DFB5592848346D0092822D /* LaunchScreen.storyboard */; };
+		C7DFB5B82848346D0092822D /* introBG.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C7DFB55B2848346D0092822D /* introBG.mp4 */; };
+		C7DFB5B92848346D0092822D /* CommentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB55C2848346D0092822D /* CommentsView.swift */; };
+		C7DFB5BA2848346D0092822D /* ProfilePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB55D2848346D0092822D /* ProfilePageView.swift */; };
+		C7DFB5BB2848346D0092822D /* SignUpEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB55E2848346D0092822D /* SignUpEmailViewController.swift */; };
+		C7DFB5BC2848346D0092822D /* SignUpUsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB55F2848346D0092822D /* SignUpUsernameViewController.swift */; };
+		C7DFB5BD2848346D0092822D /* StyleGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB5602848346D0092822D /* StyleGuide.swift */; };
+		C7DFB5BE2848346D0092822D /* ChangePasswordPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB5612848346D0092822D /* ChangePasswordPage.swift */; };
+		C7DFB5BF2848346D0092822D /* TapRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB5622848346D0092822D /* TapRecognizer.swift */; };
+		C7DFB5C02848346D0092822D /* EditProfileMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB5632848346D0092822D /* EditProfileMap.swift */; };
+		C7DFB5C12848346D0092822D /* MainMapPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB5642848346D0092822D /* MainMapPage.swift */; };
+		C7DFB5C22848346D0092822D /* MySizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB5652848346D0092822D /* MySizes.swift */; };
+		C7DFB5C32848346D0092822D /* PopclosetAPIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB5662848346D0092822D /* PopclosetAPIHandler.swift */; };
+		C7DFB5C42848346D0092822D /* SignUpPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB5672848346D0092822D /* SignUpPasswordViewController.swift */; };
+		C7DFB5C52848346D0092822D /* NotificationSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB5682848346D0092822D /* NotificationSettings.swift */; };
+		C7DFB5C62848346D0092822D /* SearchFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB5692848346D0092822D /* SearchFilter.swift */; };
+		C7DFB5C72848346D0092822D /* BlockedAccounts.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB56A2848346D0092822D /* BlockedAccounts.swift */; };
+		C7DFB5C82848346D0092822D /* MapManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB56B2848346D0092822D /* MapManager.swift */; };
+		C7DFB5C92848346D0092822D /* ProfilePageOutfits.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB56C2848346D0092822D /* ProfilePageOutfits.swift */; };
+		C7DFB5CB2848346D0092822D /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB56E2848346D0092822D /* ImagePicker.swift */; };
+		C7DFB5CC2848346D0092822D /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB56F2848346D0092822D /* FeedItem.swift */; };
+		C7DFB5CD2848346D0092822D /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7DFB5702848346D0092822D /* Colors.xcassets */; };
+		C7DFB5CE2848346D0092822D /* PostOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB5712848346D0092822D /* PostOverlay.swift */; };
+		C7DFB5CF2848346D0092822D /* AnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB5722848346D0092822D /* AnnotationView.swift */; };
+		C7DFB5D02848346D0092822D /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7DFB5732848346D0092822D /* Login.storyboard */; };
+		C7DFB5D12848346D0092822D /* AddCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB5742848346D0092822D /* AddCategory.swift */; };
+		C7DFB5D22848346D0092822D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DFB5752848346D0092822D /* AppDelegate.swift */; };
+		C7DFB5D6284835770092822D /* YPImagePicker in Frameworks */ = {isa = PBXBuildFile; productRef = C7DFB5D5284835770092822D /* YPImagePicker */; };
+		C7DFB5D8284835A70092822D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C7DFB5D7284835A70092822D /* GoogleService-Info.plist */; };
+		C7DFB5DB284836170092822D /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = C7DFB5DA284836170092822D /* FirebaseAnalytics */; };
+		C7DFB5DD284836170092822D /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = C7DFB5DC284836170092822D /* FirebaseStorage */; };
+		C7DFB5DF284836170092822D /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C7DFB5DE284836170092822D /* FirebaseAuth */; };
+		C7DFB5E1284836170092822D /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = C7DFB5E0284836170092822D /* FirebaseFirestore */; };
+		C7DFB5E3284836170092822D /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = C7DFB5E2284836170092822D /* FirebaseDatabase */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7DFB4FD284833CA0092822D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7DFB4DE284833C80092822D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7DFB4E5284833C80092822D;
+			remoteInfo = PopcloApp;
+		};
+		C7DFB508284833CA0092822D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7DFB4DE284833C80092822D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7DFB4E5284833C80092822D;
+			remoteInfo = PopcloApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C7B514FA284C1013000C25D3 /* EditItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItemView.swift; sourceTree = "<group>"; };
+		C7DFB4E6284833C80092822D /* PopcloApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopcloApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7DFB4ED284833C80092822D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C7DFB4FC284833CA0092822D /* PopcloAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopcloAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7DFB500284833CA0092822D /* PopcloAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopcloAppTests.swift; sourceTree = "<group>"; };
+		C7DFB502284833CA0092822D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7DFB507284833CA0092822D /* PopcloAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopcloAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7DFB50B284833CA0092822D /* PopcloAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopcloAppUITests.swift; sourceTree = "<group>"; };
+		C7DFB50D284833CA0092822D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7DFB5192848346D0092822D /* SearchViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchViewModel.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/View Models/Search/SearchViewModel.swift"; sourceTree = "<group>"; };
+		C7DFB51A2848346D0092822D /* TradingPreferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TradingPreferences.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Views/SwiftUIViews/Settings/SettingSubPages/TradingPreferences.swift"; sourceTree = "<group>"; };
+		C7DFB51B2848346D0092822D /* UIImagePlusResizing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIImagePlusResizing.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Helpers/Hydra Better Swift/Image Handling/UIImagePlusResizing.swift"; sourceTree = "<group>"; };
+		C7DFB51C2848346D0092822D /* ItemDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemDetailView.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Views/SwiftUIViews/ProfilePage/ItemDetailView.swift"; sourceTree = "<group>"; };
+		C7DFB51D2848346D0092822D /* UserManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserManager.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Model/User/UserManager.swift"; sourceTree = "<group>"; };
+		C7DFB51F2848346D0092822D /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Resources/SceneDelegate.swift"; sourceTree = "<group>"; };
+		C7DFB5202848346D0092822D /* CustomTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomTabBar.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Views/CustomProperties/SwiftUI/CustomTabBar.swift"; sourceTree = "<group>"; };
+		C7DFB5212848346D0092822D /* AddPostViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddPostViewModel.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/View Models/AddPost/AddPostViewModel.swift"; sourceTree = "<group>"; };
+		C7DFB5222848346D0092822D /* PaymentSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PaymentSettings.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Views/SwiftUIViews/Settings/SettingSubPages/PaymentSettings.swift"; sourceTree = "<group>"; };
+		C7DFB5232848346D0092822D /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ForgotPasswordViewController.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/ViewControllers/Login/ForgotPasswordViewController.swift"; sourceTree = "<group>"; };
+		C7DFB5252848346D0092822D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Views/Storyboards/Main.storyboard"; sourceTree = "<group>"; };
+		C7DFB5262848346D0092822D /* ItemScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemScrollView.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Views/SwiftUIViews/ProfilePage/ProfileMainPageSubviews/ItemScrollView.swift"; sourceTree = "<group>"; };
+		C7DFB5272848346D0092822D /* ProfileViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileViewModel.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/View Models/Profile Page/ProfileViewModel.swift"; sourceTree = "<group>"; };
+		C7DFB5282848346D0092822D /* RequestVerification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RequestVerification.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Views/SwiftUIViews/Settings/SettingSubPages/RequestVerification.swift"; sourceTree = "<group>"; };
+		C7DFB5292848346D0092822D /* SearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchBar.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Views/SwiftUIViews/SearchPage/SearchPageSubviews/SearchBar.swift"; sourceTree = "<group>"; };
+		C7DFB52A2848346D0092822D /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Model/User/User.swift"; sourceTree = "<group>"; };
+		C7DFB52B2848346D0092822D /* CustomTextFields.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomTextFields.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Views/CustomProperties/UIKit/CustomTextFields.swift"; sourceTree = "<group>"; };
+		C7DFB52C2848346D0092822D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Resources/Assets.xcassets"; sourceTree = "<group>"; };
+		C7DFB52D2848346D0092822D /* HiddenExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HiddenExtension.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Helpers/HiddenExtension.swift"; sourceTree = "<group>"; };
+		C7DFB52E2848346D0092822D /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapView.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Views/SwiftUIViews/MapPage/MapPageSubviews/MapView.swift"; sourceTree = "<group>"; };
+		C7DFB52F2848346D0092822D /* SplashScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SplashScreenViewController.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/ViewControllers/Login/SplashScreenViewController.swift"; sourceTree = "<group>"; };
+		C7DFB5302848346D0092822D /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/ViewControllers/Login/LoginViewController.swift"; sourceTree = "<group>"; };
+		C7DFB5312848346D0092822D /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Helpers/Constants.swift"; sourceTree = "<group>"; };
+		C7DFB5322848346D0092822D /* FeedViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FeedViewModel.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/View Models/Feed/FeedViewModel.swift"; sourceTree = "<group>"; };
+		C7DFB5332848346D0092822D /* DemoPhotos.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = DemoPhotos.xcassets; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Resources/DemoPhotos.xcassets"; sourceTree = "<group>"; };
+		C7DFB5342848346D0092822D /* FollowersPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FollowersPage.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Views/SwiftUIViews/ProfilePage/FollowersPage.swift"; sourceTree = "<group>"; };
+		C7DFB5352848346D0092822D /* LocationSearchViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationSearchViewModel.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Views/SwiftUIViews/ProfilePage/LocationSearchViewModel.swift"; sourceTree = "<group>"; };
+		C7DFB5362848346D0092822D /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Post.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Model/Post Items/Post.swift"; sourceTree = "<group>"; };
+		C7DFB5372848346D0092822D /* OutfitDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OutfitDetailView.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Views/SwiftUIViews/ProfilePage/OutfitDetailView.swift"; sourceTree = "<group>"; };
+		C7DFB5382848346D0092822D /* PersonalInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PersonalInformation.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Views/SwiftUIViews/Settings/SettingSubPages/PersonalInformation.swift"; sourceTree = "<group>"; };
+		C7DFB5392848346D0092822D /* ProfileMainPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileMainPage.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Views/SwiftUIViews/ProfilePage/ProfileMainPage.swift"; sourceTree = "<group>"; };
+		C7DFB53A2848346D0092822D /* ProfileMainPageTopBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileMainPageTopBar.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Views/SwiftUIViews/ProfilePage/ProfileMainPageSubviews/ProfileMainPageTopBar.swift"; sourceTree = "<group>"; };
+		C7DFB53B2848346D0092822D /* SettingsButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsButton.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Views/Settings/SettingsSubviews/SettingsButton.swift"; sourceTree = "<group>"; };
+		C7DFB53C2848346D0092822D /* TopBarWithShadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TopBarWithShadow.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Views/CustomProperties/SwiftUI/TopBarWithShadow.swift"; sourceTree = "<group>"; };
+		C7DFB53D2848346D0092822D /* BetterCodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BetterCodable.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Helpers/Hydra Better Swift/BetterCodable.swift"; sourceTree = "<group>"; };
+		C7DFB53E2848346D0092822D /* PageSelection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PageSelection.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Views/SwiftUIViews/ProfilePage/ProfileMainPageSubviews/PageSelection.swift"; sourceTree = "<group>"; };
+		C7DFB53F2848346D0092822D /* EditProfilePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EditProfilePage.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Views/SwiftUIViews/ProfilePage/EditProfilePage.swift"; sourceTree = "<group>"; };
+		C7DFB5402848346D0092822D /* WillDisappear.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WillDisappear.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Helpers/WillDisappear.swift"; sourceTree = "<group>"; };
+		C7DFB5412848346D0092822D /* FirebaseEcodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirebaseEcodable.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Model/Firebase/FirebaseEcodable.swift"; sourceTree = "<group>"; };
+		C7DFB5422848346D0092822D /* PrivacySettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PrivacySettings.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Views/SwiftUIViews/Settings/SettingSubPages/PrivacySettings.swift"; sourceTree = "<group>"; };
+		C7DFB5432848346D0092822D /* TabBarStructure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabBarStructure.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Views/SwiftUIViews/TabBarStructure.swift"; sourceTree = "<group>"; };
+		C7DFB5442848346D0092822D /* AddPostImages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddPostImages.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Views/SwiftUIViews/AddPostPage/AddPostSubviews/AddPostImages.swift"; sourceTree = "<group>"; };
+		C7DFB5452848346D0092822D /* Feed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Feed.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Views/SwiftUIViews/Feed/Feed.swift"; sourceTree = "<group>"; };
+		C7DFB5472848346D0092822D /* SearchPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchPage.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Views/SwiftUIViews/SearchPage/SearchPage.swift"; sourceTree = "<group>"; };
+		C7DFB5482848346D0092822D /* AddPostAndItemPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddPostAndItemPage.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Views/SwiftUIViews/AddPostPage/AddPostAndItemPage.swift"; sourceTree = "<group>"; };
+		C7DFB5492848346D0092822D /* PostViewer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostViewer.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Views/SwiftUIViews/Feed/FeedSubviews/PostViewer.swift"; sourceTree = "<group>"; };
+		C7DFB54A2848346D0092822D /* AboutPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutPage.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Views/SwiftUIViews/Settings/SettingSubPages/AboutPage.swift"; sourceTree = "<group>"; };
+		C7DFB54B2848346D0092822D /* HydraDecoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HydraDecoding.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Helpers/Hydra Better Swift/HydraDecoding.swift"; sourceTree = "<group>"; };
+		C7DFB54C2848346D0092822D /* ArrayPlusChunked.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArrayPlusChunked.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Helpers/Hydra Better Swift/ArrayPlusChunked.swift"; sourceTree = "<group>"; };
+		C7DFB54D2848346D0092822D /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Item.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Model/Post Items/Item.swift"; sourceTree = "<group>"; };
+		C7DFB54E2848346D0092822D /* LoadingScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoadingScreen.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Views/CustomProperties/SwiftUI/LoadingScreen.swift"; sourceTree = "<group>"; };
+		C7DFB54F2848346D0092822D /* CustomButtons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomButtons.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Views/CustomProperties/UIKit/CustomButtons.swift"; sourceTree = "<group>"; };
+		C7DFB5502848346D0092822D /* LocationPermissionErrorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationPermissionErrorView.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Views/SwiftUIViews/MapPage/MapPageSubviews/LocationPermissionErrorView.swift"; sourceTree = "<group>"; };
+		C7DFB5512848346D0092822D /* CGImagePlusResizing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CGImagePlusResizing.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Helpers/Hydra Better Swift/Image Handling/CGImagePlusResizing.swift"; sourceTree = "<group>"; };
+		C7DFB5522848346D0092822D /* ReportingPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReportingPage.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Views/SwiftUIViews/Settings/SettingSubPages/ReportingPage.swift"; sourceTree = "<group>"; };
+		C7DFB5532848346D0092822D /* CategoryDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CategoryDetailView.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Views/SwiftUIViews/ProfilePage/CategoryDetailView.swift"; sourceTree = "<group>"; };
+		C7DFB5542848346D0092822D /* HamburgerMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HamburgerMenu.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Views/SwiftUIViews/ProfilePage/ProfileMainPageSubviews/HamburgerMenu.swift"; sourceTree = "<group>"; };
+		C7DFB5552848346D0092822D /* NotificationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NotificationView.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Views/SwiftUIViews/Feed/NotificationView.swift"; sourceTree = "<group>"; };
+		C7DFB5562848346D0092822D /* ComingSoon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ComingSoon.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Views/SwiftUIViews/Settings/SettingSubPages/ComingSoon.swift"; sourceTree = "<group>"; };
+		C7DFB5572848346D0092822D /* SettingsMainPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsMainPage.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Views/SwiftUIViews/Settings/SettingsMainPage.swift"; sourceTree = "<group>"; };
+		C7DFB5582848346D0092822D /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsView.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Views/Settings/SettingsView.swift"; sourceTree = "<group>"; };
+		C7DFB55A2848346D0092822D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Views/Storyboards/Base.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
+		C7DFB55B2848346D0092822D /* introBG.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = introBG.mp4; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Resources/introBG.mp4"; sourceTree = "<group>"; };
+		C7DFB55C2848346D0092822D /* CommentsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CommentsView.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Views/SwiftUIViews/Feed/CommentsView.swift"; sourceTree = "<group>"; };
+		C7DFB55D2848346D0092822D /* ProfilePageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfilePageView.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Views/SwiftUIViews/ProfilePage/ProfileMainPageSubviews/ProfilePageView.swift"; sourceTree = "<group>"; };
+		C7DFB55E2848346D0092822D /* SignUpEmailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignUpEmailViewController.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/ViewControllers/Login/SignUpEmailViewController.swift"; sourceTree = "<group>"; };
+		C7DFB55F2848346D0092822D /* SignUpUsernameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignUpUsernameViewController.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/ViewControllers/Login/SignUpUsernameViewController.swift"; sourceTree = "<group>"; };
+		C7DFB5602848346D0092822D /* StyleGuide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StyleGuide.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Views/CustomProperties/StyleGuide.swift"; sourceTree = "<group>"; };
+		C7DFB5612848346D0092822D /* ChangePasswordPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChangePasswordPage.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Views/SwiftUIViews/Settings/SettingSubPages/PersonalInformationSubviews/ChangePasswordPage.swift"; sourceTree = "<group>"; };
+		C7DFB5622848346D0092822D /* TapRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TapRecognizer.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Helpers/TapRecognizer.swift"; sourceTree = "<group>"; };
+		C7DFB5632848346D0092822D /* EditProfileMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EditProfileMap.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Views/SwiftUIViews/ProfilePage/EditProfileMap.swift"; sourceTree = "<group>"; };
+		C7DFB5642848346D0092822D /* MainMapPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainMapPage.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Views/SwiftUIViews/MapPage/MainMapPage.swift"; sourceTree = "<group>"; };
+		C7DFB5652848346D0092822D /* MySizes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MySizes.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Views/SwiftUIViews/Settings/SettingSubPages/MySizes.swift"; sourceTree = "<group>"; };
+		C7DFB5662848346D0092822D /* PopclosetAPIHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PopclosetAPIHandler.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Model/Firebase/PopclosetAPIHandler.swift"; sourceTree = "<group>"; };
+		C7DFB5672848346D0092822D /* SignUpPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignUpPasswordViewController.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/ViewControllers/Login/SignUpPasswordViewController.swift"; sourceTree = "<group>"; };
+		C7DFB5682848346D0092822D /* NotificationSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NotificationSettings.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Views/SwiftUIViews/Settings/SettingSubPages/NotificationSettings.swift"; sourceTree = "<group>"; };
+		C7DFB5692848346D0092822D /* SearchFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchFilter.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Model/Search/SearchFilter.swift"; sourceTree = "<group>"; };
+		C7DFB56A2848346D0092822D /* BlockedAccounts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BlockedAccounts.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Views/SwiftUIViews/Settings/SettingSubPages/BlockedAccounts.swift"; sourceTree = "<group>"; };
+		C7DFB56B2848346D0092822D /* MapManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapManager.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/View Models/Map/MapManager.swift"; sourceTree = "<group>"; };
+		C7DFB56C2848346D0092822D /* ProfilePageOutfits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfilePageOutfits.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Views/SwiftUIViews/ProfilePage/ProfileMainPageSubviews/ProfilePageOutfits.swift"; sourceTree = "<group>"; };
+		C7DFB56E2848346D0092822D /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImagePicker.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Views/CustomProperties/SwiftUI/ImagePicker.swift"; sourceTree = "<group>"; };
+		C7DFB56F2848346D0092822D /* FeedItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FeedItem.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Model/Post Items/FeedItem.swift"; sourceTree = "<group>"; };
+		C7DFB5702848346D0092822D /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Colors.xcassets; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Resources/Colors.xcassets"; sourceTree = "<group>"; };
+		C7DFB5712848346D0092822D /* PostOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostOverlay.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Views/SwiftUIViews/Feed/FeedSubviews/PostOverlay.swift"; sourceTree = "<group>"; };
+		C7DFB5722848346D0092822D /* AnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnnotationView.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Views/SwiftUIViews/MapPage/MapPageSubviews/AnnotationView.swift"; sourceTree = "<group>"; };
+		C7DFB5732848346D0092822D /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Login.storyboard; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Views/Storyboards/Login.storyboard"; sourceTree = "<group>"; };
+		C7DFB5742848346D0092822D /* AddCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddCategory.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Views/SwiftUIViews/AddPostPage/AddPostSubviews/AddCategory.swift"; sourceTree = "<group>"; };
+		C7DFB5752848346D0092822D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "../../../Downloads/PopcloDevelopment-main/PopcloApp/PopcloApp/Resources/AppDelegate.swift"; sourceTree = "<group>"; };
+		C7DFB5D7284835A70092822D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7DFB4E3284833C80092822D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7DFB5E3284836170092822D /* FirebaseDatabase in Frameworks */,
+				C7DFB5DB284836170092822D /* FirebaseAnalytics in Frameworks */,
+				C7DFB5D6284835770092822D /* YPImagePicker in Frameworks */,
+				C7DFB5DD284836170092822D /* FirebaseStorage in Frameworks */,
+				C7DFB5E1284836170092822D /* FirebaseFirestore in Frameworks */,
+				C7DFB5DF284836170092822D /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7DFB4F9284833CA0092822D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7DFB504284833CA0092822D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7DFB4DD284833C80092822D = {
+			isa = PBXGroup;
+			children = (
+				C7DFB4E8284833C80092822D /* PopcloApp */,
+				C7DFB4FF284833CA0092822D /* PopcloAppTests */,
+				C7DFB50A284833CA0092822D /* PopcloAppUITests */,
+				C7DFB4E7284833C80092822D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7DFB4E7284833C80092822D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7DFB4E6284833C80092822D /* PopcloApp.app */,
+				C7DFB4FC284833CA0092822D /* PopcloAppTests.xctest */,
+				C7DFB507284833CA0092822D /* PopcloAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7DFB4E8284833C80092822D /* PopcloApp */ = {
+			isa = PBXGroup;
+			children = (
+				C7DFB5D7284835A70092822D /* GoogleService-Info.plist */,
+				C7DFB4ED284833C80092822D /* ViewController.swift */,
+				C7DFB54A2848346D0092822D /* AboutPage.swift */,
+				C7DFB5742848346D0092822D /* AddCategory.swift */,
+				C7DFB5482848346D0092822D /* AddPostAndItemPage.swift */,
+				C7DFB5442848346D0092822D /* AddPostImages.swift */,
+				C7DFB5212848346D0092822D /* AddPostViewModel.swift */,
+				C7DFB5722848346D0092822D /* AnnotationView.swift */,
+				C7DFB5752848346D0092822D /* AppDelegate.swift */,
+				C7DFB54C2848346D0092822D /* ArrayPlusChunked.swift */,
+				C7DFB52C2848346D0092822D /* Assets.xcassets */,
+				C7DFB53D2848346D0092822D /* BetterCodable.swift */,
+				C7DFB56A2848346D0092822D /* BlockedAccounts.swift */,
+				C7DFB5532848346D0092822D /* CategoryDetailView.swift */,
+				C7DFB5512848346D0092822D /* CGImagePlusResizing.swift */,
+				C7DFB5612848346D0092822D /* ChangePasswordPage.swift */,
+				C7DFB5702848346D0092822D /* Colors.xcassets */,
+				C7DFB5562848346D0092822D /* ComingSoon.swift */,
+				C7DFB55C2848346D0092822D /* CommentsView.swift */,
+				C7DFB5312848346D0092822D /* Constants.swift */,
+				C7DFB54F2848346D0092822D /* CustomButtons.swift */,
+				C7DFB5202848346D0092822D /* CustomTabBar.swift */,
+				C7DFB52B2848346D0092822D /* CustomTextFields.swift */,
+				C7DFB5332848346D0092822D /* DemoPhotos.xcassets */,
+				C7DFB5632848346D0092822D /* EditProfileMap.swift */,
+				C7DFB53F2848346D0092822D /* EditProfilePage.swift */,
+				C7DFB5452848346D0092822D /* Feed.swift */,
+				C7DFB56F2848346D0092822D /* FeedItem.swift */,
+				C7DFB5322848346D0092822D /* FeedViewModel.swift */,
+				C7DFB5412848346D0092822D /* FirebaseEcodable.swift */,
+				C7DFB5342848346D0092822D /* FollowersPage.swift */,
+				C7DFB5232848346D0092822D /* ForgotPasswordViewController.swift */,
+				C7DFB5542848346D0092822D /* HamburgerMenu.swift */,
+				C7DFB52D2848346D0092822D /* HiddenExtension.swift */,
+				C7DFB54B2848346D0092822D /* HydraDecoding.swift */,
+				C7DFB56E2848346D0092822D /* ImagePicker.swift */,
+				C7DFB55B2848346D0092822D /* introBG.mp4 */,
+				C7DFB54D2848346D0092822D /* Item.swift */,
+				C7DFB51C2848346D0092822D /* ItemDetailView.swift */,
+				C7DFB5262848346D0092822D /* ItemScrollView.swift */,
+				C7DFB5592848346D0092822D /* LaunchScreen.storyboard */,
+				C7DFB54E2848346D0092822D /* LoadingScreen.swift */,
+				C7DFB5502848346D0092822D /* LocationPermissionErrorView.swift */,
+				C7DFB5352848346D0092822D /* LocationSearchViewModel.swift */,
+				C7DFB5732848346D0092822D /* Login.storyboard */,
+				C7DFB5302848346D0092822D /* LoginViewController.swift */,
+				C7DFB5252848346D0092822D /* Main.storyboard */,
+				C7DFB5642848346D0092822D /* MainMapPage.swift */,
+				C7DFB56B2848346D0092822D /* MapManager.swift */,
+				C7DFB52E2848346D0092822D /* MapView.swift */,
+				C7DFB5652848346D0092822D /* MySizes.swift */,
+				C7DFB5682848346D0092822D /* NotificationSettings.swift */,
+				C7DFB5552848346D0092822D /* NotificationView.swift */,
+				C7DFB5372848346D0092822D /* OutfitDetailView.swift */,
+				C7DFB53E2848346D0092822D /* PageSelection.swift */,
+				C7DFB5222848346D0092822D /* PaymentSettings.swift */,
+				C7DFB5382848346D0092822D /* PersonalInformation.swift */,
+				C7DFB5662848346D0092822D /* PopclosetAPIHandler.swift */,
+				C7DFB5362848346D0092822D /* Post.swift */,
+				C7DFB5712848346D0092822D /* PostOverlay.swift */,
+				C7DFB5492848346D0092822D /* PostViewer.swift */,
+				C7DFB5422848346D0092822D /* PrivacySettings.swift */,
+				C7DFB5392848346D0092822D /* ProfileMainPage.swift */,
+				C7DFB53A2848346D0092822D /* ProfileMainPageTopBar.swift */,
+				C7DFB56C2848346D0092822D /* ProfilePageOutfits.swift */,
+				C7DFB55D2848346D0092822D /* ProfilePageView.swift */,
+				C7DFB5272848346D0092822D /* ProfileViewModel.swift */,
+				C7DFB5522848346D0092822D /* ReportingPage.swift */,
+				C7DFB5282848346D0092822D /* RequestVerification.swift */,
+				C7DFB51F2848346D0092822D /* SceneDelegate.swift */,
+				C7DFB5292848346D0092822D /* SearchBar.swift */,
+				C7DFB5692848346D0092822D /* SearchFilter.swift */,
+				C7DFB5472848346D0092822D /* SearchPage.swift */,
+				C7DFB5192848346D0092822D /* SearchViewModel.swift */,
+				C7DFB53B2848346D0092822D /* SettingsButton.swift */,
+				C7DFB5572848346D0092822D /* SettingsMainPage.swift */,
+				C7DFB5582848346D0092822D /* SettingsView.swift */,
+				C7DFB55E2848346D0092822D /* SignUpEmailViewController.swift */,
+				C7DFB5672848346D0092822D /* SignUpPasswordViewController.swift */,
+				C7DFB55F2848346D0092822D /* SignUpUsernameViewController.swift */,
+				C7DFB52F2848346D0092822D /* SplashScreenViewController.swift */,
+				C7DFB5602848346D0092822D /* StyleGuide.swift */,
+				C7DFB5432848346D0092822D /* TabBarStructure.swift */,
+				C7DFB5622848346D0092822D /* TapRecognizer.swift */,
+				C7DFB53C2848346D0092822D /* TopBarWithShadow.swift */,
+				C7DFB51A2848346D0092822D /* TradingPreferences.swift */,
+				C7DFB51B2848346D0092822D /* UIImagePlusResizing.swift */,
+				C7DFB52A2848346D0092822D /* User.swift */,
+				C7DFB51D2848346D0092822D /* UserManager.swift */,
+				C7DFB5402848346D0092822D /* WillDisappear.swift */,
+				C7B514FA284C1013000C25D3 /* EditItemView.swift */,
+			);
+			path = PopcloApp;
+			sourceTree = "<group>";
+		};
+		C7DFB4FF284833CA0092822D /* PopcloAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C7DFB500284833CA0092822D /* PopcloAppTests.swift */,
+				C7DFB502284833CA0092822D /* Info.plist */,
+			);
+			path = PopcloAppTests;
+			sourceTree = "<group>";
+		};
+		C7DFB50A284833CA0092822D /* PopcloAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C7DFB50B284833CA0092822D /* PopcloAppUITests.swift */,
+				C7DFB50D284833CA0092822D /* Info.plist */,
+			);
+			path = PopcloAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7DFB4E5284833C80092822D /* PopcloApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7DFB510284833CA0092822D /* Build configuration list for PBXNativeTarget "PopcloApp" */;
+			buildPhases = (
+				C7DFB4E2284833C80092822D /* Sources */,
+				C7DFB4E3284833C80092822D /* Frameworks */,
+				C7DFB4E4284833C80092822D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PopcloApp;
+			packageProductDependencies = (
+				C7DFB5D5284835770092822D /* YPImagePicker */,
+				C7DFB5DA284836170092822D /* FirebaseAnalytics */,
+				C7DFB5DC284836170092822D /* FirebaseStorage */,
+				C7DFB5DE284836170092822D /* FirebaseAuth */,
+				C7DFB5E0284836170092822D /* FirebaseFirestore */,
+				C7DFB5E2284836170092822D /* FirebaseDatabase */,
+			);
+			productName = PopcloApp;
+			productReference = C7DFB4E6284833C80092822D /* PopcloApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C7DFB4FB284833CA0092822D /* PopcloAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7DFB513284833CA0092822D /* Build configuration list for PBXNativeTarget "PopcloAppTests" */;
+			buildPhases = (
+				C7DFB4F8284833CA0092822D /* Sources */,
+				C7DFB4F9284833CA0092822D /* Frameworks */,
+				C7DFB4FA284833CA0092822D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7DFB4FE284833CA0092822D /* PBXTargetDependency */,
+			);
+			name = PopcloAppTests;
+			productName = PopcloAppTests;
+			productReference = C7DFB4FC284833CA0092822D /* PopcloAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C7DFB506284833CA0092822D /* PopcloAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7DFB516284833CA0092822D /* Build configuration list for PBXNativeTarget "PopcloAppUITests" */;
+			buildPhases = (
+				C7DFB503284833CA0092822D /* Sources */,
+				C7DFB504284833CA0092822D /* Frameworks */,
+				C7DFB505284833CA0092822D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7DFB509284833CA0092822D /* PBXTargetDependency */,
+			);
+			name = PopcloAppUITests;
+			productName = PopcloAppUITests;
+			productReference = C7DFB507284833CA0092822D /* PopcloAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7DFB4DE284833C80092822D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					C7DFB4E5284833C80092822D = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					C7DFB4FB284833CA0092822D = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = C7DFB4E5284833C80092822D;
+					};
+					C7DFB506284833CA0092822D = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = C7DFB4E5284833C80092822D;
+					};
+				};
+			};
+			buildConfigurationList = C7DFB4E1284833C80092822D /* Build configuration list for PBXProject "PopcloApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7DFB4DD284833C80092822D;
+			packageReferences = (
+				C7DFB5D4284835770092822D /* XCRemoteSwiftPackageReference "YPImagePicker" */,
+				C7DFB5D9284836170092822D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = C7DFB4E7284833C80092822D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7DFB4E5284833C80092822D /* PopcloApp */,
+				C7DFB4FB284833CA0092822D /* PopcloAppTests */,
+				C7DFB506284833CA0092822D /* PopcloAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7DFB4E4284833C80092822D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7DFB5D02848346D0092822D /* Login.storyboard in Resources */,
+				C7DFB5D8284835A70092822D /* GoogleService-Info.plist in Resources */,
+				C7DFB5912848346D0092822D /* DemoPhotos.xcassets in Resources */,
+				C7DFB58A2848346D0092822D /* Assets.xcassets in Resources */,
+				C7DFB5B72848346D0092822D /* LaunchScreen.storyboard in Resources */,
+				C7DFB5832848346D0092822D /* Main.storyboard in Resources */,
+				C7DFB5B82848346D0092822D /* introBG.mp4 in Resources */,
+				C7DFB5CD2848346D0092822D /* Colors.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7DFB4FA284833CA0092822D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7DFB505284833CA0092822D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7DFB4E2284833C80092822D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7DFB5B42848346D0092822D /* ComingSoon.swift in Sources */,
+				C7DFB5C92848346D0092822D /* ProfilePageOutfits.swift in Sources */,
+				C7DFB5922848346D0092822D /* FollowersPage.swift in Sources */,
+				C7DFB5A02848346D0092822D /* PrivacySettings.swift in Sources */,
+				C7DFB5B22848346D0092822D /* HamburgerMenu.swift in Sources */,
+				C7DFB59A2848346D0092822D /* TopBarWithShadow.swift in Sources */,
+				C7DFB57B2848346D0092822D /* UserManager.swift in Sources */,
+				C7DFB5AC2848346D0092822D /* LoadingScreen.swift in Sources */,
+				C7DFB5BE2848346D0092822D /* ChangePasswordPage.swift in Sources */,
+				C7DFB5B92848346D0092822D /* CommentsView.swift in Sources */,
+				C7DFB5D12848346D0092822D /* AddCategory.swift in Sources */,
+				C7DFB5A72848346D0092822D /* PostViewer.swift in Sources */,
+				C7DFB5C52848346D0092822D /* NotificationSettings.swift in Sources */,
+				C7DFB5BF2848346D0092822D /* TapRecognizer.swift in Sources */,
+				C7DFB58D2848346D0092822D /* SplashScreenViewController.swift in Sources */,
+				C7DFB57A2848346D0092822D /* ItemDetailView.swift in Sources */,
+				C7DFB5BA2848346D0092822D /* ProfilePageView.swift in Sources */,
+				C7DFB5842848346D0092822D /* ItemScrollView.swift in Sources */,
+				C7DFB59F2848346D0092822D /* FirebaseEcodable.swift in Sources */,
+				C7DFB5792848346D0092822D /* UIImagePlusResizing.swift in Sources */,
+				C7DFB5932848346D0092822D /* LocationSearchViewModel.swift in Sources */,
+				C7DFB58F2848346D0092822D /* Constants.swift in Sources */,
+				C7DFB5C32848346D0092822D /* PopclosetAPIHandler.swift in Sources */,
+				C7DFB59B2848346D0092822D /* BetterCodable.swift in Sources */,
+				C7DFB5872848346D0092822D /* SearchBar.swift in Sources */,
+				C7DFB5BC2848346D0092822D /* SignUpUsernameViewController.swift in Sources */,
+				C7DFB5952848346D0092822D /* OutfitDetailView.swift in Sources */,
+				C7DFB5982848346D0092822D /* ProfileMainPageTopBar.swift in Sources */,
+				C7DFB57E2848346D0092822D /* CustomTabBar.swift in Sources */,
+				C7DFB5A92848346D0092822D /* HydraDecoding.swift in Sources */,
+				C7DFB5882848346D0092822D /* User.swift in Sources */,
+				C7DFB5A82848346D0092822D /* AboutPage.swift in Sources */,
+				C7DFB59E2848346D0092822D /* WillDisappear.swift in Sources */,
+				C7DFB5C02848346D0092822D /* EditProfileMap.swift in Sources */,
+				C7DFB5852848346D0092822D /* ProfileViewModel.swift in Sources */,
+				C7DFB5962848346D0092822D /* PersonalInformation.swift in Sources */,
+				C7DFB5B62848346D0092822D /* SettingsView.swift in Sources */,
+				C7DFB5CF2848346D0092822D /* AnnotationView.swift in Sources */,
+				C7DFB5AF2848346D0092822D /* CGImagePlusResizing.swift in Sources */,
+				C7DFB58E2848346D0092822D /* LoginViewController.swift in Sources */,
+				C7DFB5C22848346D0092822D /* MySizes.swift in Sources */,
+				C7DFB5C72848346D0092822D /* BlockedAccounts.swift in Sources */,
+				C7DFB5772848346D0092822D /* SearchViewModel.swift in Sources */,
+				C7DFB5A62848346D0092822D /* AddPostAndItemPage.swift in Sources */,
+				C7DFB57F2848346D0092822D /* AddPostViewModel.swift in Sources */,
+				C7DFB5AE2848346D0092822D /* LocationPermissionErrorView.swift in Sources */,
+				C7DFB5902848346D0092822D /* FeedViewModel.swift in Sources */,
+				C7DFB5AB2848346D0092822D /* Item.swift in Sources */,
+				C7DFB5862848346D0092822D /* RequestVerification.swift in Sources */,
+				C7DFB5892848346D0092822D /* CustomTextFields.swift in Sources */,
+				C7DFB5782848346D0092822D /* TradingPreferences.swift in Sources */,
+				C7DFB5812848346D0092822D /* ForgotPasswordViewController.swift in Sources */,
+				C7DFB5B52848346D0092822D /* SettingsMainPage.swift in Sources */,
+				C7DFB5C42848346D0092822D /* SignUpPasswordViewController.swift in Sources */,
+				C7DFB5C12848346D0092822D /* MainMapPage.swift in Sources */,
+				C7DFB5AD2848346D0092822D /* CustomButtons.swift in Sources */,
+				C7DFB5A12848346D0092822D /* TabBarStructure.swift in Sources */,
+				C7DFB5CE2848346D0092822D /* PostOverlay.swift in Sources */,
+				C7DFB5C62848346D0092822D /* SearchFilter.swift in Sources */,
+				C7DFB5CC2848346D0092822D /* FeedItem.swift in Sources */,
+				C7DFB5802848346D0092822D /* PaymentSettings.swift in Sources */,
+				C7DFB5A32848346D0092822D /* Feed.swift in Sources */,
+				C7DFB4EE284833C80092822D /* ViewController.swift in Sources */,
+				C7DFB5C82848346D0092822D /* MapManager.swift in Sources */,
+				C7DFB5BD2848346D0092822D /* StyleGuide.swift in Sources */,
+				C7DFB5AA2848346D0092822D /* ArrayPlusChunked.swift in Sources */,
+				C7DFB5A52848346D0092822D /* SearchPage.swift in Sources */,
+				C7DFB58C2848346D0092822D /* MapView.swift in Sources */,
+				C7DFB5B02848346D0092822D /* ReportingPage.swift in Sources */,
+				C7DFB5B12848346D0092822D /* CategoryDetailView.swift in Sources */,
+				C7DFB5942848346D0092822D /* Post.swift in Sources */,
+				C7DFB5BB2848346D0092822D /* SignUpEmailViewController.swift in Sources */,
+				C7DFB59C2848346D0092822D /* PageSelection.swift in Sources */,
+				C7DFB5992848346D0092822D /* SettingsButton.swift in Sources */,
+				C7B514FB284C1013000C25D3 /* EditItemView.swift in Sources */,
+				C7DFB59D2848346D0092822D /* EditProfilePage.swift in Sources */,
+				C7DFB5B32848346D0092822D /* NotificationView.swift in Sources */,
+				C7DFB57D2848346D0092822D /* SceneDelegate.swift in Sources */,
+				C7DFB58B2848346D0092822D /* HiddenExtension.swift in Sources */,
+				C7DFB5CB2848346D0092822D /* ImagePicker.swift in Sources */,
+				C7DFB5A22848346D0092822D /* AddPostImages.swift in Sources */,
+				C7DFB5D22848346D0092822D /* AppDelegate.swift in Sources */,
+				C7DFB5972848346D0092822D /* ProfileMainPage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7DFB4F8284833CA0092822D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7DFB501284833CA0092822D /* PopcloAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7DFB503284833CA0092822D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7DFB50C284833CA0092822D /* PopcloAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7DFB4FE284833CA0092822D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7DFB4E5284833C80092822D /* PopcloApp */;
+			targetProxy = C7DFB4FD284833CA0092822D /* PBXContainerItemProxy */;
+		};
+		C7DFB509284833CA0092822D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7DFB4E5284833C80092822D /* PopcloApp */;
+			targetProxy = C7DFB508284833CA0092822D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C7DFB5592848346D0092822D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7DFB55A2848346D0092822D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7DFB50E284833CA0092822D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C7DFB50F284833CA0092822D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7DFB511284833CA0092822D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Q9YCL6PT3;
+				INFOPLIST_FILE = PopcloApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.adityasharda.PopcloApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7DFB512284833CA0092822D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Q9YCL6PT3;
+				INFOPLIST_FILE = PopcloApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.adityasharda.PopcloApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C7DFB514284833CA0092822D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Q9YCL6PT3;
+				INFOPLIST_FILE = PopcloAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.adityasharda.PopcloAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopcloApp.app/PopcloApp";
+			};
+			name = Debug;
+		};
+		C7DFB515284833CA0092822D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Q9YCL6PT3;
+				INFOPLIST_FILE = PopcloAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.adityasharda.PopcloAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopcloApp.app/PopcloApp";
+			};
+			name = Release;
+		};
+		C7DFB517284833CA0092822D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Q9YCL6PT3;
+				INFOPLIST_FILE = PopcloAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.adityasharda.PopcloAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PopcloApp;
+			};
+			name = Debug;
+		};
+		C7DFB518284833CA0092822D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Q9YCL6PT3;
+				INFOPLIST_FILE = PopcloAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.adityasharda.PopcloAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PopcloApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7DFB4E1284833C80092822D /* Build configuration list for PBXProject "PopcloApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7DFB50E284833CA0092822D /* Debug */,
+				C7DFB50F284833CA0092822D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7DFB510284833CA0092822D /* Build configuration list for PBXNativeTarget "PopcloApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7DFB511284833CA0092822D /* Debug */,
+				C7DFB512284833CA0092822D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7DFB513284833CA0092822D /* Build configuration list for PBXNativeTarget "PopcloAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7DFB514284833CA0092822D /* Debug */,
+				C7DFB515284833CA0092822D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7DFB516284833CA0092822D /* Build configuration list for PBXNativeTarget "PopcloAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7DFB517284833CA0092822D /* Debug */,
+				C7DFB518284833CA0092822D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C7DFB5D4284835770092822D /* XCRemoteSwiftPackageReference "YPImagePicker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Yummypets/YPImagePicker.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.2.1;
+			};
+		};
+		C7DFB5D9284836170092822D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C7DFB5D5284835770092822D /* YPImagePicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C7DFB5D4284835770092822D /* XCRemoteSwiftPackageReference "YPImagePicker" */;
+			productName = YPImagePicker;
+		};
+		C7DFB5DA284836170092822D /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C7DFB5D9284836170092822D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		C7DFB5DC284836170092822D /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C7DFB5D9284836170092822D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		C7DFB5DE284836170092822D /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C7DFB5D9284836170092822D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		C7DFB5E0284836170092822D /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C7DFB5D9284836170092822D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		C7DFB5E2284836170092822D /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C7DFB5D9284836170092822D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C7DFB4DE284833C80092822D /* Project object */;
+}
